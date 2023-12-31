@@ -9,6 +9,7 @@
     <?php
     class Movie
     {
+        //getter/setter functions only needed when pruivate variables need to be accessed
         public $title;
         private $rating; // $rating can only be access inside Movei class
 
